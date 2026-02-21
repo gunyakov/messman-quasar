@@ -1,0 +1,100 @@
+// app global css in SCSS form
+
+body.body--dark {
+	--tg-dark-page: #0e1621;
+	--tg-dark-surface: #17212b;
+	--tg-dark-surface-elev: #1f2c3a;
+	--tg-dark-border: rgba(114, 137, 159, 0.3);
+	--tg-dark-muted: #7f91a4;
+	--tg-dark-bubble-in: #182533;
+	--tg-dark-bubble-in-text: #e6edf3;
+
+	.tg-page {
+		background: var(--tg-dark-page) !important;
+	}
+
+	.tg-shell,
+	.desktop-conversation > header,
+	.conversation-content > footer,
+	.tg-mobile-sidebar,
+	.tg-mobile-main > header,
+	.tg-mobile-main .tg-mobile-bottom-bar,
+	.desktop-emoji-drawer,
+	.mobile-emoji-panel,
+	.tg-sidebar-profile,
+	.conversation-content .q-scrollarea,
+	.tg-mobile-main .q-scrollarea {
+		background: var(--tg-dark-surface) !important;
+	}
+
+	.conversation-content .bg-grey-2,
+	.tg-shell .bg-grey-2,
+	.tg-mobile-sidebar .bg-grey-2 {
+		background: var(--tg-dark-surface-elev) !important;
+	}
+
+	.conversation-content .tg-bubble.bg-white {
+		background: var(--tg-dark-bubble-in) !important;
+		color: var(--tg-dark-bubble-in-text) !important;
+	}
+
+	.conversation-content .tg-bubble .text-grey-7,
+	.desktop-conversation .text-grey-7,
+	.tg-sidebar-profile .text-grey-7 {
+		color: var(--tg-dark-muted) !important;
+	}
+
+	.desktop-emoji-drawer,
+	.mobile-emoji-panel,
+	.tg-sidebar-profile,
+	.tg-mobile-bottom-bar,
+	.tg-shell,
+	.q-separator {
+		border-color: var(--tg-dark-border) !important;
+		background: var(--tg-dark-border) !important;
+	}
+
+	.emoji-picker .bg-grey-1,
+	.emoji-picker .q-tab-panels,
+	.emoji-picker .q-tab-panel {
+		background: var(--tg-dark-surface-elev) !important;
+	}
+
+	.emoji-picker .text-grey-8 {
+		color: #c9d4df !important;
+	}
+
+	.auth-page,
+	.auth-page.bg-grey-2 {
+		background: var(--tg-dark-page) !important;
+	}
+
+	.auth-card {
+		background: var(--tg-dark-surface) !important;
+		border-color: var(--tg-dark-border) !important;
+	}
+
+	.auth-card .text-grey-7 {
+		color: var(--tg-dark-muted) !important;
+	}
+
+	.auth-card .q-tab-panels,
+	.auth-card .q-tab-panel,
+	.auth-card .q-card__section,
+	.auth-card .q-card__actions {
+		background: var(--tg-dark-surface) !important;
+	}
+
+	.auth-card .q-tabs {
+		background: var(--tg-dark-surface-elev) !important;
+	}
+
+	.auth-card .q-field--outlined .q-field__control {
+		background: var(--tg-dark-surface-elev) !important;
+	}
+
+	.auth-card .q-field--outlined .q-field__control:before,
+	.auth-card .q-field--outlined .q-field__control:after {
+		border-color: var(--tg-dark-border) !important;
+	}
+}

@@ -4,7 +4,7 @@ MessMan is a web UI concept for a decentralized chat application.
 
 ## Live demo
 
-https://<your-github-username>.github.io/messman-quasar/
+https://gunyakov.github.io/messman-quasar/
 
 After enabling GitHub Pages in repository settings, this URL will host the latest deployed demo from `main`.
 
